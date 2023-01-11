@@ -14,7 +14,7 @@ public class ReversePolishNotationCalculatorTest {
 
     @Test
     public void shouldCalculateSubtraction() {
-        Assertions.assertEquals( 2, calculator.calculatePolishNotation("3 2 1 - -"));
+        Assertions.assertEquals(2, calculator.calculatePolishNotation("3 2 1 - -"));
     }
 
     @Test
